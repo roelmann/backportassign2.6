@@ -7,7 +7,9 @@ Copy the mod/assign from 2.6 into 2.5
   There appears to be a bug in locallib.php - requireallteammemberssubmit needs
   to be updated conditionally based on whether it is set - database does not
   need to be updated if teamsubmission isn't being used and requireallteammemberssubmit
-  is not set.
+  is not set. 
+  This seems to be fine in 2.6 as it is, but needs this edit in 2.5 - May need to check
+  if this means I've missed something else somewhere that means this works in 2.6.
 
   Line 555+
         $update->teamsubmission = $formdata->teamsubmission;
