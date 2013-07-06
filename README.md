@@ -21,3 +21,5 @@ Copy the mod/assign from 2.6 into 2.5
         }
 
 Copy course/moodleform_mod.php from 2.6 into 2.5
+
+Don't forget to go to the admin/notifications page to update the assign module to the new code
