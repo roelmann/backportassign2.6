@@ -2,6 +2,9 @@ backportassign2.6
 =================
 
 Backport of the work done for Assign 2.6 into Moodle2.5 - Minor changes only
+This is based on integrating the work from
+http://docs.moodle.org/dev/Assignment/Draft_Features/Marker_Allocation_and_Management
+For full details of these features please see that page of the Moodle docs
 
 Copy the mod/assign from 2.6 into 2.5
   There appears to be a bug in assign/locallib.php - requireallteammemberssubmit needs
